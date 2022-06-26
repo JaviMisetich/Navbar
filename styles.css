@@ -1,28 +1,33 @@
-html{
-   width: 100%;
-   height: 100%;
+html {
+    width: 100%;
+    height: 100%;
 }
-   *{
+
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     background-color: rgb(58, 124, 124);
 }
-.container{
+
+.container {
     width: 100%;
-    height: 30px ;
-    
+    height: 30px;
+
 }
-.navbar{
+
+.navbar {
     width: 95%;
     margin: auto;
     padding: 35px 0;
     display: flex;
-    align-items:flex-start;
+    align-items: flex-start;
     justify-content: space-between;
 }
-.logo{
+
+.logo {
     width: 130px;
     cursor: pointer;
     display: flex;
@@ -30,27 +35,32 @@ body{
     margin-top: -35px;
 
 }
+
 .navbar ul li {
-    list-style: none ;
+    list-style: none;
     display: inline-block;
     margin: 0 20px;
     position: relative;
 }
+
 .navbar ul li a {
     text-decoration: none;
     color: rgb(3, 0, 0);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
 }
-img{
+
+img {
     max-width: 300px;
     max-height: 300px;
 }
-.Witcher{
+
+.Witcher {
     width: fit-content;
     height: fit-content;
 }
-.contenedor{
+
+.contenedor {
     display: flex;
     flex-direction: row-reverse;
     align-content: stretch;
@@ -59,31 +69,34 @@ img{
     margin: auto;
 }
 
-.subcontenedor{
+.subcontenedor {
     display: flex;
     flex-direction: row-reverse;
     align-items: flex-start;
 }
 
-article{
+article {
     padding: 250px;
     margin-left: 250px;
 }
-.title-1{
-    color: rgb(2, 1, 1) ;
+
+.title-1 {
+    color: rgb(2, 1, 1);
     margin-right: 15px;
     margin-top: 135px;
     text-align: center;
 }
-.descripcion{
+
+.descripcion {
     display: flex;
     justify-items: center;
     justify-content: center;
     margin: 5px;
     padding: 40px;
 }
-.text{
-    width: 50% ;
+
+.text {
+    width: 50%;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
